@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" novalidate >
+        <h3>Form Validation</h3>
+
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            id="username"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset> 
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            id="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Password" type="password" id="password" />
+        </fieldset>
+
+        <fieldset>
+          <button>Submit</button>
+        </fieldset>
+        <p class="copyright">
+          Designed by
+          <a href="https://colorlib.com" target="_blank" title="Colorlib"
+            >Colorlib</a
+          >
+        </p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
